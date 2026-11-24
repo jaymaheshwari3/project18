@@ -22,8 +22,8 @@ resource "aws_s3_bucket" "gitops" {
   bucket = "jay-project18-gitops-590507089733"
 
   tags = {
-    Name    = "jay-project18-gitops"
-    Project = "Project18"
+    Name    = "MyResource"
+    Project = "Jay-Project-18"
   }
 }
 
